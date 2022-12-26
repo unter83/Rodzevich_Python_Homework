@@ -9,8 +9,8 @@ def CreateRandomArray(list_limit, min, max: int) -> list:
 print("Программа находит сумму элементов списка, стоящих на нечётной позиции.\n")
 
 list_limit = int(input("Введите длину списка случайных чисел: "))
-min = int(input("Введите минимальное число: "))
-max = int(input("Введите максимальное число: "))
+min = int(input("Введите минимальное число случайной последовательности: "))
+max = int(input("Введите максимальное число случайной последовательности: "))
 
 list_of_num = CreateRandomArray(list_limit, min, max)
 print(list_of_num)
