@@ -33,4 +33,4 @@ while (div > 0):
         bin = "0" + bin
         
 print()
-print(f"Число в двоичном виде: {bin}")
+print(f"Число в двоичном виде {bin}")
