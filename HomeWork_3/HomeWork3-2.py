@@ -17,7 +17,7 @@ print(list_of_num)
 print()
 
 print("Произведение пар:")
-for i in range(0, list_limit // 2):
+for i in range(0, list_limit // 2 + 1):
     # k = list_limit - i
     # print(i)
     print(f"{list_of_num[i]} * {list_of_num[list_limit - i - 1]} = {list_of_num[i]*list_of_num[list_limit - i - 1]}")
