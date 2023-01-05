@@ -2,6 +2,7 @@ import math
 
 def Polinom(file: str) -> dict:
     data = open(file, "r")
+    print(type(data))
     poly = data.read()
     data.close()
     print(poly)
@@ -13,10 +14,14 @@ def Polinom(file: str) -> dict:
     poly_res_array = poly_res.split(" ")
     polinom_dict = {}
 
+    print(poly_res_array)
+
     for i in poly_res_array:
         if "x" not in i:
             index = "0"            
             value = i
+            print(f"{float(value)} - значение")
+            print(f"{int(index)} - индекс")
             polinom_dict[int(index)] = float(value)
         else:
             value = ""
@@ -24,6 +29,7 @@ def Polinom(file: str) -> dict:
             while i[t] != "x":
                 value = value + i[t]
                 t += 1
+            print(f"{float(value)} - значение")
 
             index = ""
             while t < len(i):
@@ -33,8 +39,12 @@ def Polinom(file: str) -> dict:
             index = index.replace("x", "")
             if index == "":
                 index = "1"
+            print(f"{int(index)} - индекс")
             polinom_dict[int(index)] = float(value)
 
+
+    print(polinom_dict)
+    print("---------------")
     return(polinom_dict)
 
 
@@ -56,7 +66,7 @@ for i in p2:
     else:
         p_res[i] = p2.get(i)
 
-print()
+print(f"Словарь - {p_res}")
 p_res = dict(sorted(p_res.items(), reverse=True))
 
 for i in p_res:
@@ -162,6 +172,74 @@ file = open("HomeWork_4/result.txt", "w")
 file.write(result)
 file.close()
 
+# for i in p_res:
+#     if first == True:
+#         if i > 1:
+#             if p_res[i] > 1 or (0 < p_res[i] < 1):
+#                 print(f"{abs(p_res[i])}*x^{i} ", end="")
+#                 first = False
+#             elif p_res[i] == 1:
+#                 print(f"x^{i} ", end="")
+#                 first = False
+#             elif p_res[i] == -1:
+#                 print(f"- x^{i} ", end="")
+#                 first = False
+#             elif p_res[i] < 0 or (-1 < p_res[i] < 0):
+#                 print(f"- {abs(p_res[i])}*x^{i} ", end="")
+#                 first = False
+#         elif i == 1:
+#             if p_res[i] > 1 or (0 < p_res[i] < 1):
+#                 print(f"{abs(p_res[i])}*x ", end="")
+#                 first = False
+#             elif p_res[i] == 1:
+#                 print(f"x ", end="")
+#                 first = False
+#             elif p_res[i] == -1:
+#                 print(f"- x ", end="")
+#                 first = False
+#             elif p_res[i] < 0 or (-1 < p_res[i] < 0):
+#                 print(f"- {abs(p_res[i])}*x ", end="")
+#                 first = False
+             
+#     else:
+#         if i > 1:
+#             if p_res[i] > 1 or (0 < p_res[i] < 1):
+#                 print(f"+ {abs(p_res[i])}*x^{i} ", end="")
+
+#             elif p_res[i] == 1:
+#                 print(f"+ x^{i} ", end="")
+
+#             elif p_res[i] == -1:
+#                 print(f"- x^{i} ", end="")
+
+#             elif p_res[i] < 0 or (-1 < p_res[i] < 0):
+#                 print(f"- {abs(p_res[i])}*x^{i} ", end="")
+
+#         elif i == 1:
+#             if p_res[i] > 1 or (0 < p_res[i] < 1):
+#                 print(f"+ {abs(p_res[i])}*x ", end="")
+
+#             elif p_res[i] == 1:
+#                 print(f"+ x ", end="")
+
+#             elif p_res[i] == -1:
+#                 print(f"- x ", end="")
+
+#             elif p_res[i] < 0 or (-1 < p_res[i] < 0):
+#                 print(f"- {abs(p_res[i])}*x ", end="")
+
+#         elif i == 0:
+#             if p_res[i] > 1 or (0 < p_res[i] < 1):
+#                 print(f"+ {abs(p_res[i])} ", end="")
+
+#             elif p_res[i] == 1:
+#                 print(f"+ ", end="")
+
+#             elif p_res[i] == -1:
+#                 print(f"- ", end="")
+
+#             elif p_res[i] < 0 or (-1 < p_res[i] < 0):
+#                 print(f"- {abs(p_res[i])} ", end="")
             
 
 
