@@ -1,8 +1,8 @@
 
 import random
 
-max_candy = 28
-max_candy_pool = 120
+max_candy = 10
+max_candy_pool = 50
 
 
 print('\n*** Игра в конфеты с "умным" компьютером***\n')
