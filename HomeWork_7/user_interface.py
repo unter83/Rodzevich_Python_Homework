@@ -1,5 +1,5 @@
 from imp import ImportBook
-from exp import ExportContact
+from exp import ExportContact, ExportContact2
 
 
 
@@ -13,14 +13,18 @@ def OptionsPage():
     print("2 - Добавить контакт")
     print("3 - Выйти\n")
 
-    user_choose = (int(input("Выберите опцию: ")))
+    user_choose = (input("Выберите опцию: "))
+    
 
-    if user_choose == 1:
+    if user_choose == '1':
+        ImportOptions()
+    elif user_choose == '2':
         ExportOptions()
-    elif user_choose == 2:
-        ExportOptions()
-    elif user_choose == 3:
+    elif user_choose == '3':
         exit()
+    else:
+        print('Введите одно из указанных значений')
+        OptionsPage()
 
 def ExportOptions():
     print("Введите данные:\n")
@@ -30,5 +34,15 @@ def ExportOptions():
     tel = (input("Телефон: "))
     comment = (input("Коммантарии: "))
 
-    ExportContact(s_name, f_name, tel, comment)
+    data = (s_name, f_name, tel, comment)
+    if ExportContact(data) and ExportContact2(data):
+        print('Запись добавлена\n')
+    else:
+        print('Ошибка записи\n')
+
+    OptionsPage()
+
+def ImportOptions():
+    ImportBook()
+
     OptionsPage()
