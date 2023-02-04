@@ -1,0 +1,8 @@
+s_key=0;s_name=Иван;s_secname=Тургеньев;
+s_key=1;s_name=Александр;s_secname=Пушкин;
+s_key=2;s_name=Михаил;s_secname=Булгаков;
+s_key=3;s_name=Сергей;s_secname=Есенин;
+s_key=4;s_name=Николай;s_secname=Гоголь;
+s_key=5;s_name=Александр;s_secname=Блок;
+s_key=6;s_name=Максим;s_secname=Горький;
+s_key=7;s_name=Антон;s_secname=Чехов;
