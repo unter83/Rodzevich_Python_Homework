@@ -1,0 +1,7 @@
+l_key=0;l_name=Математика;
+l_key=1;l_name=Русский;
+l_key=2;l_name=Литература;
+l_key=3;l_name=Физкультура;
+l_key=4;l_name=Физика;
+l_key=5;l_name=Химия;
+l_key=15;l_name=Геометрия;
