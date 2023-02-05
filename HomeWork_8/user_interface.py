@@ -87,8 +87,12 @@ def ShowTeacherScreen():
 def AddGradeOptions():
     print('\n Список учеников:')
     student_dict = ShowAllStudents()
-    print('\nВведите данные ученика\n')
-    student = int(input('Выберите ученика: '))
+    while(True):
+        student = int(input('Выберите ученика: '))
+        if student < 0 or student > len(student_dict) - 1:
+            print('Ошибка ввода ученика')
+            continue
+        break
     print(f'\nЗдравствуйте учитель.\n')
     print(f'Оценки студента {student_dict[student]}:')
     ShowStudent(student)
