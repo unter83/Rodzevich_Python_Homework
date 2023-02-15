@@ -1,0 +1,8 @@
+02/15/2023 20:42:18 - user entered 1+2
+02/15/2023 20:42:18 - result is 3 for example 1 + 2
+02/15/2023 20:42:21 - user entered 3+4
+02/15/2023 20:42:21 - result is 7 for example 3 + 4
+02/15/2023 20:42:33 - user entered 3*4-2*2
+02/15/2023 20:42:33 - result is 8 for example 3 * 4 - 2 * 2
+02/15/2023 20:42:48 - user entered -1.2*5
+02/15/2023 20:42:48 - result is -6.0 for example 0 - 1.2 * 5

@@ -1,0 +1,41 @@
+01/30/2023 17:43:43 - user entered 1+1
+01/30/2023 17:43:43 - result is 2 for example 1 + 1
+01/30/2023 17:56:31 - user entered 5+2
+01/30/2023 17:56:31 - result is 7 for example 5 + 2
+01/30/2023 18:06:07 - user entered 1.2+2.1
+01/30/2023 18:06:07 - result is 1.22.1 for example 1.2 + 2.1
+01/30/2023 18:07:26 - user entered 1.2+2.1
+01/30/2023 18:07:26 - result is 1.22.1 for example 1.2 + 2.1
+01/30/2023 18:09:43 - user entered 1.2+2.1
+01/30/2023 18:09:43 - result is 1.22.1 for example 1.2 + 2.1
+01/30/2023 18:13:07 - user entered 1.2+2.1
+01/30/2023 18:13:07 - result is 1.22.1 for example 1.2 + 2.1
+01/30/2023 18:14:03 - user entered 1.2+2.1
+01/30/2023 18:14:03 - result is 1.22.1 for example 1.2 + 2.1
+01/30/2023 18:16:22 - user entered 1.2+2.1
+01/30/2023 18:16:22 - result is 1.22.1 for example 1.2 + 2.1
+01/30/2023 18:18:14 - user entered 1.2+2.1
+01/30/2023 18:18:14 - result is 1.22.1 for example 1.2 + 2.1
+01/30/2023 18:19:22 - user entered 1.2+2.1
+01/30/2023 18:19:22 - result is 1.22.1 for example 1.2 + 2.1
+01/30/2023 18:20:15 - user entered 1.2+2.1
+01/30/2023 18:20:15 - result is 1.22.1 for example 1.2 + 2.1
+01/30/2023 18:26:36 - user entered 2,2+2,2
+01/30/2023 18:26:36 - result is 2,22,2 for example 2,2 + 2,2
+01/30/2023 18:29:26 - user entered 2,2+2,2
+01/30/2023 18:29:33 - user entered 1.2+2.1
+01/30/2023 18:29:33 - result is 3.3 for example 1.2 + 2.1
+01/30/2023 18:31:57 - user entered 2,2+2,2
+01/30/2023 18:31:57 - result is 4.4 for example 2,2 + 2,2
+01/30/2023 20:09:48 - user entered 18+9/3
+01/30/2023 20:09:48 - result is 21.0 for example 18 + 9 / 3
+01/30/2023 20:13:15 - user entered 18+9/3
+01/30/2023 20:13:15 - result is 21.0 for example 18 + 9 / 3
+01/30/2023 21:05:14 - user entered 5+5
+01/30/2023 21:05:14 - result is 10 for example 5 + 5
+02/15/2023 20:48:51 - Unter_vk entered 1+1
+02/15/2023 20:48:51 - result is 2 for example 1 + 1
+02/15/2023 20:49:02 - Unter_vk entered 2+2
+02/15/2023 20:49:02 - result is 4 for example 2 + 2
+02/15/2023 20:49:05 - Unter_vk entered 2*4*5
+02/15/2023 20:49:05 - result is 40 for example 2 * 4 * 5
